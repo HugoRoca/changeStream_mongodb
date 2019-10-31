@@ -1,0 +1,27 @@
+{
+  "name": "changestream_mongodb",
+  "version": "1.0.0",
+  "description": "Change stream for collection in mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoRoca/changeStream_mongodb.git"
+  },
+  "author": "Hugo Roca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HugoRoca/changeStream_mongodb/issues"
+  },
+  "homepage": "https://github.com/HugoRoca/changeStream_mongodb#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "elasticsearch": "^16.5.0",
+    "mongodb": "^3.3.3",
+    "nodemon": "^1.19.4",
+    "sync-request": "^6.1.0"
+  }
+}
